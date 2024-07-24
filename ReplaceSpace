@@ -1,0 +1,9 @@
+package SecondDemo;
+
+public class ReplaceSpace {
+    public static void main(String[] args) {
+        String sentence = "There are 3 spaces";
+        String replacedSentence = sentence.replaceAll(" ", "#");
+        System.out.println(replacedSentence);
+    }
+}
